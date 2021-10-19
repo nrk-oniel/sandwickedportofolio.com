@@ -70,14 +70,14 @@ h1, h2, h3, h4, h5, h6 {
   z-index: 9997;
   transition: all 0.5s;
   padding: 0 15px;
-  background: #040b14;
+  background: #052575;
   overflow-y: auto;
 }
 #header .profile img {
   margin: 15px auto;
   display: block;
   width: 120px;
-  border: 8px solid #2c2f3f;
+  border: 8px solid #DC713A;
 }
 #header .profile h1 {
   font-size: 24px;
@@ -319,6 +319,27 @@ section {
   margin-bottom: 0;
 }
 
+.about a{
+  /* justify-content: center; */
+  background-color: #052575;
+  color: white;
+  padding: 15px;
+  border-radius: 10px;
+  height: 100%;
+  transition: 0.3s;
+  /* width: 20%; */
+}
+
+.about a:hover{
+  border-radius: 30px;
+}
+
+.about .bi-download{
+  font-size: 18px;
+  margin-right: 7px;
+}
+
+
 /*--------------------------------------------------------------
 # Facts
 --------------------------------------------------------------*/
@@ -449,6 +470,21 @@ section {
   top: 0;
   background: #fff;
   border: 2px solid #1f5297;
+}
+
+.resume-item a{
+  border-radius: 10px;
+  /* background-color: #052575; */
+  /* padding: 10px; */
+  /* margin-top: 10px; */
+}
+
+.resume-item a:hover{
+  text-decoration: underline;
+}
+
+.credential-id{
+  font-style: italic;
 }
 
 /*--------------------------------------------------------------
@@ -934,7 +970,7 @@ section {
   bottom: 0;
   width: 300px;
   z-index: 9999;
-  background: #040b14;
+  background: #DC713A;
 }
 #footer .copyright {
   text-align: center;
